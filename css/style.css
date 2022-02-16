@@ -1,8 +1,29 @@
-img {
-    display: inline;
-    width: 155px;
-    height: 155px;
+.hero-image {
+    /* background-image: url("/final-project/images/Millie\ head\ 3.png");
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
 }
+
+.millie {
+    width: 100%;
+    height: 50vh;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+
 nav {
     width: 100vw;
     height: 100px;
@@ -10,8 +31,12 @@ nav {
     font-size: 3rem;
     font-family: 'Abril Fatface', cursive;
     position: relative;
-    top: 600px;
-    
+    /* top: 600px; */
+}
+img {
+    display: inline;
+    width: 155px;
+    height: 155px;
 }
 
 li {
@@ -32,28 +57,17 @@ li :hover {
 h1{
     font-family: 'Abril Fatface', cursive;
 }
-body {
-    background-image: url("/final-project/images/Millie\ head\ 3.png");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-   }
-   .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+
+
 footer {
         text-align: center;
         padding: 3px;
         font-family: 'Abril Fatface', cursive;
         background-color: #f7cdd0;
         color: white;
-        position: relative;
-        top: 800px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
 }
+
+/********* End of Nav  ********/
