@@ -59,19 +59,34 @@ h1{
     margin: 5px;
     background-image: url(/final-project/images/life_Dog_2549240d-9a8b-4586-a58e-16fd774c327b_800x.png.webp);
 }
+.shortbox2{
+    width: 60vw;
+    height: 38vw;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+    background-image: url(/final-project/images/my-dog-does-nothing-me-mytherapistsays-65738-photos-later-youre-36506272.png);
+    background-repeat:no-repeat;
+    margin-bottom: 100px;
+}
 .asidebox{
-    width: 26vw;
+    width: 30vw;
     height: 41vw;
     border-color: black;
     border-style: solid;
     border-width: 2px;
     margin: 5px;
+    margin-bottom: 100px;
 }
 .floatleft{
     float: left;
 }
 .floatright{
     float: right;
+}
+.floatleft2{
+    float: left;
 }
 .clearboth{
     clear: both;
@@ -95,7 +110,7 @@ aside{
 
 audio{
     float: right;
-    margin: 0px 35px 0px 0px;
+    margin: 0px 55px 0px 0px;
 }
 
 footer {
