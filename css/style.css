@@ -57,6 +57,7 @@ h1{
     border-style: solid;
     border-width: 2px;
     margin: 5px;
+    background-image: url(/final-project/images/life_Dog_2549240d-9a8b-4586-a58e-16fd774c327b_800x.png.webp);
 }
 .asidebox{
     width: 26vw;
@@ -76,7 +77,7 @@ h1{
     clear: both;
 }
 aside{
-    background-image: url(/Day5Challenge/images/meritt-thomas-BltNj6USPNE-unsplash.jpg);
+    background-image: url(/final-project/images/Untitled\ design.png);
     background-position: center;
     background-size: 100% 100%;
 }
@@ -90,6 +91,11 @@ aside{
     background-color: rgba(255, 255, 255, 0.486);
     top: 0;
     left: 0;
+}
+
+audio{
+    float: right;
+    margin: 0px 35px 0px 0px;
 }
 
 footer {

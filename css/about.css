@@ -50,6 +50,7 @@ h1{
 }
 h2{
     font-family: 'Abril Fatface', cursive;
+    text-align: center;
 }
 p{
     font-family: 'Abril Fatface', cursive;
@@ -60,8 +61,10 @@ p{
   }
   .column {
     float: left;
-    width: 25%;
+    width: 10%;
     padding: 5px;
+    margin: 0px 180px 0px 0px;
+    float: right;
   }
   
   /* Clearfix (clear floats) */
